@@ -7,6 +7,6 @@ server.get("/", (req, res) => {
 
 let PORT = process.env.PORT ? process.env.PORT : 5000;
 
-server.listen(5000, () => {
+server.listen(PORT, () => {
   console.log("listening on 3000");
 });
